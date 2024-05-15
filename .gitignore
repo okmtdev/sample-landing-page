@@ -17,10 +17,21 @@
 .env.development.local
 .env.test.local
 .env.production.local
+*.pem
 
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.yarn/install-state.gz
 
-# build
-.next
+# next.js
+/.next/
+/out/
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
