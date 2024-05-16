@@ -11,7 +11,8 @@ import { Top } from "@/body/top/Top";
 export default function Home() {
   return (
     <main>
-      <div className="space-y-44">
+      {/* Spacing https://tailwindcss.com/docs/space */}
+      <div className="space-y-14">
         <NavBar />
         <div id="top">
           <Top />
