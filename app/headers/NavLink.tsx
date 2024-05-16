@@ -1,6 +1,5 @@
 interface NavLinkProps {
   href: string;
-  //children: React.ReactNode;
   children: string;
   current?: boolean;
   onClick?: () => void;
