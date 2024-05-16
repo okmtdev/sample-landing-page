@@ -96,9 +96,9 @@ export const NavBar: any = () => {
             </li>
             <li>
               <NavLink
-                href="#pricing"
-                current={currentLink === "#pricing"}
-                onClick={() => setCurrentLink("#pricing")}
+                href="#howto"
+                current={currentLink === "#howto"}
+                onClick={() => setCurrentLink("#howto")}
               >
                 利用方法
               </NavLink>
