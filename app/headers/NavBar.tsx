@@ -18,7 +18,7 @@ export const NavBar: any = () => {
             alt="Landwind Logo"
           />
           <span className="self-center text-xl font-semibold whitespace-nowrap">
-            Landing Page タイトル
+            サンプル製品 Hoge
           </span>
         </a>
         <div className="flex items-center lg:order-2">
@@ -27,7 +27,7 @@ export const NavBar: any = () => {
           </div>
 
           <a
-            href="https://www.okmtdev.com"
+            href="https://github.com/okmtdev"
             className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 focus:outline-none"
           >
             利用する
@@ -82,7 +82,7 @@ export const NavBar: any = () => {
                 current={currentLink === "#top"}
                 onClick={() => setCurrentLink("#top")}
               >
-                商品のご説明
+                製品説明
               </NavLink>
             </li>
             <li>
@@ -100,7 +100,7 @@ export const NavBar: any = () => {
                 current={currentLink === "#howto"}
                 onClick={() => setCurrentLink("#howto")}
               >
-                利用方法
+                ご利用の流れ
               </NavLink>
             </li>
             <li>
