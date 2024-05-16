@@ -21,7 +21,6 @@ export const NavLink: React.FC<NavLinkProps> = ({
     <a
       href={href}
       className={`${baseStyle} ${current ? currentStyle : defaultStyle}`}
-      aria-current={current ? "page" : undefined}
       onClick={onClick}
     >
       {children}
