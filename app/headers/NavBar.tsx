@@ -78,45 +78,45 @@ export const NavBar: any = () => {
           <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
             <li>
               <NavLink
-                href="#1"
-                current={currentLink === "#1"}
-                onClick={() => setCurrentLink("#1")}
+                href="#top"
+                current={currentLink === "#top"}
+                onClick={() => setCurrentLink("#top")}
               >
                 商品のご説明
               </NavLink>
             </li>
             <li>
               <NavLink
-                href="#2"
-                current={currentLink === "#2"}
-                onClick={() => setCurrentLink("#2")}
+                href="#solution"
+                current={currentLink === "#solution"}
+                onClick={() => setCurrentLink("#solution")}
               >
                 解決する課題
               </NavLink>
             </li>
             <li>
               <NavLink
-                href="#3"
-                current={currentLink === "#3"}
-                onClick={() => setCurrentLink("#3")}
+                href="#pricing"
+                current={currentLink === "#pricing"}
+                onClick={() => setCurrentLink("#pricing")}
               >
                 利用方法
               </NavLink>
             </li>
             <li>
               <NavLink
-                href="#4"
-                current={currentLink === "#4"}
-                onClick={() => setCurrentLink("#4")}
+                href="#pricing"
+                current={currentLink === "#pricing"}
+                onClick={() => setCurrentLink("#pricing")}
               >
                 料金体系
               </NavLink>
             </li>
             <li>
               <NavLink
-                href="#5"
-                current={currentLink === "#5"}
-                onClick={() => setCurrentLink("#5")}
+                href="#company"
+                current={currentLink === "#company"}
+                onClick={() => setCurrentLink("#company")}
               >
                 会社について
               </NavLink>
