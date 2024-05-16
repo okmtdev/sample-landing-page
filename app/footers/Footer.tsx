@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const Footer: any = () => {
   return (
     <div>
@@ -12,10 +14,10 @@ export const Footer: any = () => {
             <div className="text-sm uppercase text-purple-700 font-bold">
               「Hoge」とは？
             </div>
-            <a className="my-3 block" href="/#">
+            <a className="my-3 block" href="#top">
               製品説明<span className="text-teal-600 text-xs p-1"></span>
             </a>
-            <a className="my-3 block" href="/#">
+            <a className="my-3 block" href="#solution">
               解決する課題<span className="text-teal-600 text-xs p-1"></span>
             </a>
           </div>
@@ -23,10 +25,10 @@ export const Footer: any = () => {
             <div className="text-sm uppercase text-purple-700 font-bold">
               ご利用について
             </div>
-            <a className="my-3 block" href="/#">
+            <a className="my-3 block" href="#howto">
               ご利用の流れ<span className="text-teal-600 text-xs p-1"></span>
             </a>
-            <a className="my-3 block" href="/#">
+            <a className="my-3 block" href="#pracing">
               料金体系<span className="text-teal-600 text-xs p-1"></span>
             </a>
           </div>
@@ -34,11 +36,11 @@ export const Footer: any = () => {
             <div className="text-sm uppercase text-purple-700 font-bold">
               お問い合わせ
             </div>
-            <a className="my-3 block" href="/#">
+            <a className="my-3 block" href="#company">
               会社について
               <span className="text-teal-600 text-xs p-1"></span>
             </a>
-            <a className="my-3 block" href="/#">
+            <a className="my-3 block" href="#company">
               サポート体制
               <span className="text-teal-600 text-xs p-1"></span>
             </a>
@@ -50,38 +52,52 @@ export const Footer: any = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
+            <Image
+              src="https://www.svgrepo.com/show/475647/facebook-color.svg"
+              width={35}
+              height={35}
+              alt="facebook icon"
+            />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+            <Image
+              src="https://www.svgrepo.com/show/452049/line.svg"
+              width={35}
+              height={35}
+              alt="line icon"
+            />
           </a>
           <a
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
-          </a>
-          <a
-            href="https://messenger.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
+            <Image
+              src="https://www.svgrepo.com/show/452229/instagram-1.svg"
+              width={35}
+              height={35}
+              alt="instagram icon"
+            />
           </a>
           <a
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
+            <Image
+              src="https://www.svgrepo.com/show/452121/twitter-1.svg"
+              width={35}
+              height={35}
+              alt="twitter icon"
+            />
           </a>
         </div>
-        <p className="text-center text-gray-700 font-medium">
+        <div className="mt-3"></div>
+        <p className="text-center text-gray-500 font-small">
           &copy; 2025 株式会社ご機嫌エンジニアリング. All rights reservered.
         </p>
       </div>
