@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/third-parties": "^14.3.0-canary.70",
     "@types/react-router-dom": "^5.3.3",
     "next": "14.2.3",
     "react": "^18",
