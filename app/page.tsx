@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main>
       {/* Spacing https://tailwindcss.com/docs/space */}
-      <div className="space-y-14">
+      <div className="space-y-3">
         <NavBar />
         <div id="top">
           <Top />

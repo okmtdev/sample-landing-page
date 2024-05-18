@@ -28,6 +28,9 @@ export const Footer: any = () => {
             <a className="my-3 block" href="#howto">
               ご利用の流れ<span className="text-teal-600 text-xs p-1"></span>
             </a>
+            <a className="my-3 block" href="#movie">
+              ご利用方法<span className="text-teal-600 text-xs p-1"></span>
+            </a>
             <a className="my-3 block" href="#pracing">
               料金体系<span className="text-teal-600 text-xs p-1"></span>
             </a>
