@@ -9,14 +9,12 @@ export const Timeline: any = () => {
         <div className="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
           <div className="flex md:contents flex-row-reverse">
             <div className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
-              <h3 className="text-lg font-semibold lg:text-xl">
-                プラン選択・ご契約
-              </h3>
+              <h3 className="text-lg font-semibold lg:text-xl">ご契約</h3>
               <p className="mt-2 leading-6">
-                本LPを確認後、プランを選択します。
+                プランを選択後、サービス提供ページにて決済いただきます。
               </p>
-              <span className="absolute text-sm text-purple-100/75 -top-5 left-2 whitespace-nowrap">
-                Date 1
+              <span className="absolute text-sm text-gray-600 -top-5 left-2 whitespace-nowrap">
+                ご契約
               </span>
             </div>
             <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
@@ -42,8 +40,8 @@ export const Timeline: any = () => {
                 契約時のメールアドレスに対してサービス利用に関する資料を送付いたします。
                 決済後、正式にサービスを提供します。
               </p>
-              <span className="absolute text-sm text-purple-100/75 -top-5 left-2 whitespace-nowrap">
-                Date 2
+              <span className="absolute text-sm text-gray-600 -top-5 left-2 whitespace-nowrap">
+                契約内容の確認
               </span>
             </div>
           </div>
@@ -54,8 +52,8 @@ export const Timeline: any = () => {
               <p className="mt-2 leading-6">
                 Hoge の管理画面や本番機能を利用いただけます。
               </p>
-              <span className="absolute text-sm text-purple-100/75 -top-5 left-2 whitespace-nowrap">
-                Date 3
+              <span className="absolute text-sm text-gray-600 -top-5 left-2 whitespace-nowrap">
+                サービス提供後
               </span>
             </div>
             <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
@@ -77,11 +75,11 @@ export const Timeline: any = () => {
               <h3 className="text-lg font-semibold lg:text-xl">
                 アフターサポート
               </h3>
-              <p className="mt-2 leading-6">
-                サービス提供後、サービス稼働中のデータの提供やHogeブランドに関するグッズを提供します。
+              <p className="text-gray-600 mt-2 leading-6">
+                サービス利用後、サービス稼働中のデータの提供やHogeブランドに関するグッズを提供します。
               </p>
-              <span className="absolute text-sm text-purple-100/75 -top-5 left-2 whitespace-nowrap">
-                Date 4
+              <span className="absolute text-sm text-gray-600 -top-5 left-2 whitespace-nowrap">
+                サービス利用後
               </span>
             </div>
           </div>
