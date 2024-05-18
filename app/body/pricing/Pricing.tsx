@@ -2,10 +2,7 @@ export const Pricing: any = () => {
   return (
     <div>
       <section className="flex items-center justify-center mt-10 pb-10">
-        <div
-          className="p-4 sm:px-10 flex flex-col justify-center items-center text-base h-100vh mx-auto"
-          id="pricing"
-        >
+        <div className="p-4 sm:px-10 flex flex-col justify-center items-center text-base h-100vh mx-auto">
           <h2 className="text-3xl font-semibold text-center flex gap-2 justify-center mb-10">
             選べる料金体系
           </h2>
