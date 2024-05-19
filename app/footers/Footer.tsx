@@ -101,7 +101,7 @@ export const Footer: any = () => {
         </div>
         <div className="mt-3"></div>
         <p className="text-center text-gray-500 font-small">
-          &copy; 2025 株式会社ご機嫌エンジニアリング. All rights reservered.
+          &copy; 2025 株式会社 Hoge. All rights reservered.
         </p>
       </div>
     </div>
