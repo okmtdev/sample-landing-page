@@ -118,7 +118,7 @@ export const NavBar: any = () => {
                 current={currentLink === "#company"}
                 onClick={() => setCurrentLink("#company")}
               >
-                会社について
+                お問い合わせ
               </NavLink>
             </li>
           </ul>
