@@ -1,9 +1,9 @@
-import { SolutionCard } from "@/body/solutions/SolutionCard";
+import { SolutionCard } from '@/body/solutions/SolutionCard';
 import {
   faHouse,
   faComment,
   faFaceSmile,
-} from "@fortawesome/free-solid-svg-icons";
+} from '@fortawesome/free-solid-svg-icons';
 
 export const Solution: any = () => {
   return (

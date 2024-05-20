@@ -1,4 +1,4 @@
-import { SVGProps } from "react";
+import { SVGProps } from 'react';
 
 // icons https://icones.js.org/
 export function AccessibilityIcon(props: SVGProps<SVGSVGElement>) {

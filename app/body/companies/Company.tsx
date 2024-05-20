@@ -1,5 +1,5 @@
-import Image from "next/image";
-import { Contact } from "@/body/companies/Contact";
+import Image from 'next/image';
+import { Contact } from '@/body/companies/Contact';
 
 export const Company: any = () => {
   return (

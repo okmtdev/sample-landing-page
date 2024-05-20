@@ -1,5 +1,5 @@
-import { Movie } from "@/body/howto/Movie";
-import { Timeline } from "@/body/howto/Timeline";
+import { Movie } from '@/body/howto/Movie';
+import { Timeline } from '@/body/howto/Timeline';
 
 export const Howto: any = () => {
   return (

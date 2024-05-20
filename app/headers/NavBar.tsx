@@ -1,9 +1,9 @@
-import Image from "next/image";
-import { NavLink } from "@/headers/NavLink";
-import { useState } from "react";
+import Image from 'next/image';
+import { NavLink } from '@/headers/NavLink';
+import { useState } from 'react';
 
 export const NavBar: any = () => {
-  const [currentLink, setCurrentLink] = useState("#1");
+  const [currentLink, setCurrentLink] = useState('#1');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
@@ -71,7 +71,7 @@ export const NavBar: any = () => {
         </div>
         <div
           className={`items-center justify-between w-full ${
-            isMobileMenuOpen ? "block" : "hidden"
+            isMobileMenuOpen ? 'block' : 'hidden'
           } lg:flex lg:w-auto lg:order-1`}
           id="mobile-menu-2"
         >
@@ -79,8 +79,8 @@ export const NavBar: any = () => {
             <li>
               <NavLink
                 href="#top"
-                current={currentLink === "#top"}
-                onClick={() => setCurrentLink("#top")}
+                current={currentLink === '#top'}
+                onClick={() => setCurrentLink('#top')}
               >
                 製品説明
               </NavLink>
@@ -88,8 +88,8 @@ export const NavBar: any = () => {
             <li>
               <NavLink
                 href="#solution"
-                current={currentLink === "#solution"}
-                onClick={() => setCurrentLink("#solution")}
+                current={currentLink === '#solution'}
+                onClick={() => setCurrentLink('#solution')}
               >
                 解決する課題
               </NavLink>
@@ -97,8 +97,8 @@ export const NavBar: any = () => {
             <li>
               <NavLink
                 href="#howto"
-                current={currentLink === "#howto"}
-                onClick={() => setCurrentLink("#howto")}
+                current={currentLink === '#howto'}
+                onClick={() => setCurrentLink('#howto')}
               >
                 ご利用の流れ
               </NavLink>
@@ -106,8 +106,8 @@ export const NavBar: any = () => {
             <li>
               <NavLink
                 href="#pricing"
-                current={currentLink === "#pricing"}
-                onClick={() => setCurrentLink("#pricing")}
+                current={currentLink === '#pricing'}
+                onClick={() => setCurrentLink('#pricing')}
               >
                 料金体系
               </NavLink>
@@ -115,8 +115,8 @@ export const NavBar: any = () => {
             <li>
               <NavLink
                 href="#contact"
-                current={currentLink === "#contact"}
-                onClick={() => setCurrentLink("#contact")}
+                current={currentLink === '#contact'}
+                onClick={() => setCurrentLink('#contact')}
               >
                 お問い合わせ
               </NavLink>

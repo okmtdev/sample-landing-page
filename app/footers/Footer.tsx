@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 export const Footer: any = () => {
   return (
@@ -15,10 +15,12 @@ export const Footer: any = () => {
               「Hoge」とは？
             </div>
             <a className="my-3 block" href="#top">
-              製品説明<span className="text-teal-600 text-xs p-1"></span>
+              製品説明
+              <span className="text-teal-600 text-xs p-1"></span>
             </a>
             <a className="my-3 block" href="#solution">
-              解決する課題<span className="text-teal-600 text-xs p-1"></span>
+              解決する課題
+              <span className="text-teal-600 text-xs p-1"></span>
             </a>
           </div>
           <div className="p-5">
@@ -26,13 +28,16 @@ export const Footer: any = () => {
               ご利用について
             </div>
             <a className="my-3 block" href="#howto">
-              ご利用の流れ<span className="text-teal-600 text-xs p-1"></span>
+              ご利用の流れ
+              <span className="text-teal-600 text-xs p-1"></span>
             </a>
             <a className="my-3 block" href="#movie">
-              ご利用方法<span className="text-teal-600 text-xs p-1"></span>
+              ご利用方法
+              <span className="text-teal-600 text-xs p-1"></span>
             </a>
             <a className="my-3 block" href="#pricing">
-              料金体系<span className="text-teal-600 text-xs p-1"></span>
+              料金体系
+              <span className="text-teal-600 text-xs p-1"></span>
             </a>
           </div>
           <div className="p-5">
