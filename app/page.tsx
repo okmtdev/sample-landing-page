@@ -26,7 +26,7 @@ export default function Home() {
         <div id="pricing">
           <Pricing />
         </div>
-        <div id="company">
+        <div id="contact">
           <Company />
         </div>
         <div id="footer">

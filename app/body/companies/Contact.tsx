@@ -66,7 +66,10 @@ export const Contact: any = () => {
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button className="flex mx-auto text-white bg-purple-700 border-0 py-2 px-8 focus:outline-none hover:bg-purple-800 rounded text-lg mb-8">
+                <button
+                  type="button"
+                  className="flex mx-auto text-white bg-purple-700 border-0 py-2 px-8 focus:outline-none hover:bg-purple-800 rounded text-lg mb-8"
+                >
                   送信
                 </button>
               </div>

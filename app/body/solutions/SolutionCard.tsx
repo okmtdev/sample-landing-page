@@ -19,13 +19,11 @@ export const SolutionCard: React.FC<SolutionCardProps> = ({
   return (
     <div className="bg-gray-200 p-4 rounded-lg">
       <div className="flex items-center">
-        <FontAwesomeIcon icon={icon} className="h-5 w-5 text-gray-500" />
-        <h2 className="ml-4 text-lg leading-6 font-medium text-gray-900">
-          {title}
-        </h2>
+        <FontAwesomeIcon icon={icon} className="h-5 w-5 text-purple-700" />
+        <h2 className="ml-2 text-lg leading-6 font-bold">{title}</h2>
       </div>
       <p>{description}</p>
-      <div className="flex justify-center">
+      <div className="flex justify-center mt-10">
         <Image src={imageSrc} alt={imageAlt} width={300} height={300} />
       </div>
     </div>

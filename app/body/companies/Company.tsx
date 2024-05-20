@@ -5,7 +5,10 @@ export const Company: any = () => {
   return (
     <div>
       <Contact />
-      <h2 className="text-3xl font-semibold text-center flex gap-2 justify-center mt-8 mb-8">
+      <h2
+        className="text-3xl font-semibold text-center flex gap-2 justify-center mt-8 mb-8"
+        id="contact"
+      >
         運営会社
       </h2>
       <div className="text-gray-600 body-font relative mb-10">
