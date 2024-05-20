@@ -39,12 +39,12 @@ export const Footer: any = () => {
             <div className="text-sm uppercase text-purple-700 font-bold">
               お問い合わせ
             </div>
-            <a className="my-3 block" href="#company">
-              運営会社
+            <a className="my-3 block" href="#contact">
+              お問い合わせ窓口
               <span className="text-teal-600 text-xs p-1"></span>
             </a>
             <a className="my-3 block" href="#company">
-              お問い合わせ窓口
+              運営会社
               <span className="text-teal-600 text-xs p-1"></span>
             </a>
           </div>
