@@ -12,12 +12,12 @@ check `http://localhost:3080`
 
 ### `npm run build`
 
-check `http://localhost:8080/index.html`
-
 ```
 $ docker build -t nextjs-app .
-$ docker run -p 8080:80 nextjs-app
+$ docker run -p 80:80 nextjs-app
 ```
+
+check `http://localhost:8080/index.html`
 
 ## Tailwind CSS Components Library
 
