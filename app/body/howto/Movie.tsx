@@ -1,4 +1,4 @@
-import { YouTubeEmbed } from "@next/third-parties/google";
+import { YouTubeEmbed } from '@next/third-parties/google';
 
 export const Movie: any = () => {
   return (

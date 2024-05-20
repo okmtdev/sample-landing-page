@@ -1,12 +1,12 @@
-"use client";
+'use client';
 
-import { NavBar } from "@/headers/NavBar";
-import { Footer } from "@/footers/Footer";
-import { Company } from "@/body/companies/Company";
-import { Howto } from "@/body/howto/Howto";
-import { Pricing } from "@/body/pricing/Pricing";
-import { Solution } from "@/body/solutions/Solution";
-import { Top } from "@/body/top/Top";
+import { NavBar } from '@/headers/NavBar';
+import { Footer } from '@/footers/Footer';
+import { Company } from '@/body/companies/Company';
+import { Howto } from '@/body/howto/Howto';
+import { Pricing } from '@/body/pricing/Pricing';
+import { Solution } from '@/body/solutions/Solution';
+import { Top } from '@/body/top/Top';
 
 export default function Home() {
   return (

@@ -1,0 +1,8 @@
+build/
+public/
+out/
+.next/
+**/node_modules/
+**/*.min.js
+*.config.js
+.*lintrc.js
