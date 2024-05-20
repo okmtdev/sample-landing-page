@@ -75,14 +75,14 @@ export const Timeline: any = () => {
             label="1. ご契約"
           />
           <TimelineItemReverse
-            title="契約確認とサービス正式提供"
+            title="ご契約内容確認"
             description="契約時のメールアドレスに対してサービス利用に関する資料を送付いたします。 内容確認後、正式にサービスを提供します。"
             label="2. 契約内容の確認"
           />
           <TimelineItem
             title="サービス利用"
             description="Hoge の管理画面や本番機能を利用いただけます。"
-            label="3. サービス正式提供中"
+            label="3. サービス稼働中"
           />
           <TimelineItemReverse
             title="アフターサポート"
