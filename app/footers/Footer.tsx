@@ -31,7 +31,7 @@ export const Footer: any = () => {
             <a className="my-3 block" href="#movie">
               ご利用方法<span className="text-teal-600 text-xs p-1"></span>
             </a>
-            <a className="my-3 block" href="#pracing">
+            <a className="my-3 block" href="#pricing">
               料金体系<span className="text-teal-600 text-xs p-1"></span>
             </a>
           </div>
@@ -63,7 +63,7 @@ export const Footer: any = () => {
             />
           </a>
           <a
-            href="https://facebook.com"
+            href="https://line.me/en/"
             target="_blank"
             rel="noopener noreferrer"
           >

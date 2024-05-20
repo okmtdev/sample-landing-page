@@ -89,13 +89,13 @@ export const Top: any = () => {
             </div>
             <div className="mt-10 flex items-center gap-x-6">
               <a
-                href="#"
+                href="#contact"
                 className="rounded-md bg-purple-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 お問い合わせ
               </a>
               <a
-                href="#"
+                href="demo"
                 className="text-sm font-semibold leading-6 text-gray-700"
               >
                 デモサイトを見てみる
